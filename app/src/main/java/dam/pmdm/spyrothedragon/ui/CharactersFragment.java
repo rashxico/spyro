@@ -45,12 +45,16 @@ public class CharactersFragment extends Fragment {
         // Cargamos los personajes desde el XML
         loadCharacters();
         return binding.getRoot();
+
     }
 
     @Override
     public void onDestroyView() {
         super.onDestroyView();
         binding = null;
+        if (adapter != null) {
+            adapter.eliminarAnimacionFuego();
+        }
     }
 
     private void loadCharacters() {

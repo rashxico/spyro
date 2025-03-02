@@ -11,5 +11,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
+    <include
+        android:id="@+id/principalin3"
+        layout="@layout/principal3"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

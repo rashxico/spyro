@@ -1,0 +1,20 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Fondo degradado (cielo mágico) -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#809c35ba"
+                android:endColor="#80FFD700"
+                android:angle="5" />
+        </shape>
+    </item>
+
+    <!-- Llama izquierda -->
+
+    <item android:gravity="bottom">
+        <bitmap
+            android:src="@drawable/llamita"
+            android:gravity="center" />
+    </item>
+
+</layer-list>

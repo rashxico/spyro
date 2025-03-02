@@ -1,0 +1,14 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Define el color y el grosor del borde -->
+    <stroke
+        android:width="2dp"
+    android:color="@android:color/black" />
+
+    <!-- Define el tamaño del círculo -->
+    <size
+        android:width="95dp"
+        android:height="95dp" />
+
+    <!-- Hace que la forma sea circular -->
+    <corners android:radius="50dp" />
+</shape>

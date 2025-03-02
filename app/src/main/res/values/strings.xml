@@ -4,6 +4,28 @@
     <string name="characters">Personajes</string>
     <string name="collectibles">Coleccionables</string>
     <string name="title_about">Acerca de</string>
-    <string name="text_about">Aplicación desarrollada por \n <b>Lindsay Barrero Martínez.</b></string>
+    <string name="text_about">Aplicación desarrollada por \n <b>Angel Vargas Moreno</b></string>
     <string name="accept">Aceptar</string>
+    <string name="bocadillo1">En esta sección podrás explorar a todos los personajes del mundo de Spyro.</string>
+    <string name="bocadillo2">En esta sección podrás explorar a todos los mundos del mundo de Spyro.</string>
+    <string name="bocadillo3">En esta sección podrás explorar a todos los coleccionables disponibles del mundo de Spyro.</string>
+    <string name="bocadillo4">En esta opción podrás encontrar la información de el creador de la app.</string>
+    <string name="intro">Esta aplicación, inspirada en el universo de Spyro, te sumergirá en un mundo lleno de criaturas legendarias, paisajes asombrosos y tesoros ocultos. Aquí aprenderás a explorar pestañas repletas de dragones majestuosos, reinos fascinantes y objetos mágicos que brillan con luz propia.
+¿Estás listo para comenzar? Presiona "Comenzar"  esta experiencia interactiva llena de sorpresas y emociones..</string>
+    <string name="resumen">1 . Personajes:
+
+En esta sección, el usuario puede explorar a todos los personajes del mundo de Spyro.
+
+   2. Mundos:
+
+En esta sección, el usuario puede explorar todos los mundos del mundo de Spyro.
+
+3. Coleccionables:
+
+En esta sección, el usuario puede explorar todos los coleccionables disponibles en el mundo de Spyro.
+
+4. Información del creador:
+
+En esta opción, el usuario puede encontrar información sobre el creador de la aplicación. </string>
+
 </resources>
