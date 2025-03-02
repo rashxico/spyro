@@ -51,17 +51,19 @@ public class CharactersFragment extends Fragment {
     @Override
     public void onDestroyView() {
         super.onDestroyView();
-        binding = null;
+
+        // Eliminar la animación de fuego si está activa
         if (adapter != null) {
             adapter.eliminarAnimacionFuego();
         }
+
+        binding = null;
     }
 
     private void loadCharacters() {
         try {
             // Cargamos el archivo XML desde res/xml (NOTA: ahora se usa R.xml.characters)
             InputStream inputStream = getResources().openRawResource(R.raw.characters);
-
             // Crear un parser XML
             XmlPullParserFactory factory = XmlPullParserFactory.newInstance();
             factory.setNamespaceAware(true);
